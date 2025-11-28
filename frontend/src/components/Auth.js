@@ -10,7 +10,7 @@ const Auth = ({ setToken }) => {
     const navigate = useNavigate();
 
     // Change URL if deploying later (For now, localhost)
-    const API_URL = 'https://dsa-graph-logistics.onrender.com';
+    const API_URL = 'https://dsa-graph-logistics.onrender.com/api/auth';
 
     const handleChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
 
